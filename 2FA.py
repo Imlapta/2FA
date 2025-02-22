@@ -7,8 +7,8 @@ from time import time
 from typing import Dict, Tuple
 
 # Configuration from Environment Variables
-API_ID = int(os.getenv("API_ID", ""))
-API_HASH = os.getenv("API_HASH", "")
+API_ID = int(os.getenv("API_ID", "3737117"))
+API_HASH = os.getenv("API_HASH", "f466ca6ff400954d192ce0992ddf8b5d")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 # Ensure credentials are set
